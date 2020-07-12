@@ -11,7 +11,12 @@ img {
   width: 100%;
   height: 100vh;
 }
-
+.conteiner-total-dark {
+  background-color: #343d5b;
+}
+.content-dark {
+  background-color: #353f5f;
+}
 .content {
   position: relative;
   width: auto;
@@ -31,6 +36,7 @@ img {
 button {
   width: 70px;
   height: 85px;
+  border: none;
 }
 
 .content div {
@@ -158,4 +164,22 @@ i {
 }
 .iguall {
   width: 100%;
+}
+.result-dark {
+  color: white;
+}
+
+.btn-dark {
+  background-color: #272d3f;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: #384363;
+}
+.op-dark {
+  background-color: orange;
+}
+.op-dark:hover {
+  background-color: rgb(206, 151, 50);
 }
